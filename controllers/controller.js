@@ -30,7 +30,7 @@ router.get("/save", function(req, res) {
 
 router.post("/scrape", function(req, res) {
  
-  request("http://www.cnbc.com/", function(error, response, html) {
+  request("http://www.nytimes.com/", function(error, response, html) {
     
     var $ = cheerio.load(html);
     var scrapedArticles = {};

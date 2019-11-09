@@ -27,7 +27,7 @@ app.set('view engine', 'handlebars');
 
 var routes = require("./controllers/controller.js");
 app.use("/", routes);
-mongoose.connect("mongodb://");
+mongoose.connect("mongodb://Narmongo:johndeer1@ds141238.mlab.com:41238/heroku_0rqssznw");
 
 var db = mongoose.connection;
 
