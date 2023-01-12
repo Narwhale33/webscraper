@@ -4,12 +4,12 @@
   "description": "Scrape some news",
   "main": "modelNews.js",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.20.1",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.15.4",
+    "express": "^4.18.2",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^4.11.6",
-    "morgan": "^1.8.2",
+    "mongoose": "^4.13.21",
+    "morgan": "^1.10.0",
     "request": "^2.81.0"
   },
   "devDependencies": {},
